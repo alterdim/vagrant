@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "alternis.vagrant.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin",
+		"WaterBottleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

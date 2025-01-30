@@ -1,0 +1,8 @@
+{
+  "booba": {
+    "subtitle": "sound.vagrant.booba",
+    "sounds": [
+      "vagrant:booba"
+    ]
+  }
+}
