@@ -8,7 +8,6 @@ import net.minecraft.world.World;
 public class RiftEntity extends Entity {
     public RiftEntity(EntityType<? extends Entity> type, World world) {
         super(type, world);
-        this.level = level;
     }
 
     public int level = 1;

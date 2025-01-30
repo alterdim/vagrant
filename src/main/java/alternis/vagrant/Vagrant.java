@@ -7,6 +7,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -42,5 +43,7 @@ public class Vagrant implements ModInitializer {
 		ModItems.initialize();
 		ModEntities.initialize();
 		ModSounds.initialize();
+
+
 	}
 }

@@ -1,6 +1,7 @@
 package alternis.vagrant;
 
 import alternis.vagrant.registry.ModEntities;
+import alternis.vagrant.renderer.AbominationRenderer;
 import alternis.vagrant.renderer.RiftEntityRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
@@ -15,6 +16,7 @@ public class VagrantClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		EntityRendererRegistry.register(ModEntities.RIFT, RiftEntityRenderer::new);
+		EntityRendererRegistry.register(ModEntities.ABOMINATION, AbominationRenderer::new);
 		LOGGER.info("Registered client renderers !");
 	}
 }
